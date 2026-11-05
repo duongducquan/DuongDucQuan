@@ -1,0 +1,5 @@
+# Dương Đức Quân (DuongDucQuan / duongducquan)
+User-agent: *
+Allow: /
+
+Sitemap: https://duongducquan.github.io/sitemap.xml
