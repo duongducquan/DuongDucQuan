@@ -1,5 +1,9 @@
-# Dương Đức Quân (DuongDucQuan / duongducquan)
+# Dương Đức Quân (DuongDucQuan / duongducquan / Duong Duc Quan)
 User-agent: *
 Allow: /
 
-Sitemap: https://duongducquan.github.io/sitemap.xml
+# Ảnh cho Google Images
+User-agent: Googlebot-Image
+Allow: /
+
+Sitemap: https://duongducquan.github.io/DuongDucQuan/sitemap.xml
