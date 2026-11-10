@@ -1,9 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://duongducquan.github.io/</loc>
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://duongducquan.vercel.app/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://duongducquan.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://duongducquan.vercel.app/"/>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-1.jpg</image:loc>
+      <image:title>Dương Đức Quân – Chân dung Full Stack Developer TP.HCM</image:title>
+      <image:caption>Dương Đức Quân (DuongDucQuan) – Chân dung lập trình viên Full Stack tại TP.HCM</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-2.jpg</image:loc>
+      <image:title>Dương Đức Quân – Lập trình viên web Việt Nam</image:title>
+      <image:caption>Dương Đức Quân (duongducquan) – Lập trình viên web Full Stack xây dựng website và RESTful API</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-3.jpg</image:loc>
+      <image:title>Dương Đức Quân – Portfolio DuongDucQuan</image:title>
+      <image:caption>Portfolio lập trình viên Full Stack Dương Đức Quân – React, Node.js, PHP</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-4.jpg</image:loc>
+      <image:title>Dương Đức Quân – ReactJS NodeJS Developer</image:title>
+      <image:caption>Dương Đức Quân – Developer chuyên ReactJS và backend NodeJS Express</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-5.jpg</image:loc>
+      <image:title>Dương Đức Quân – Sinh viên IT TP.HCM</image:title>
+      <image:caption>Dương Đức Quân – Sinh viên Công nghệ Thông tin tại TP. Hồ Chí Minh</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-6.jpg</image:loc>
+      <image:title>Dương Đức Quân – Full Stack Developer Thủ Đức</image:title>
+      <image:caption>Dương Đức Quân – Full Stack Web Developer tại Thủ Đức, làm việc cùng MID Việt Nam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-7.jpg</image:loc>
+      <image:title>Dương Đức Quân – Lập trình viên PHP MySQL</image:title>
+      <image:caption>Dương Đức Quân – Lập trình viên backend PHP CodeIgniter 4 và MySQL</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-8.jpg</image:loc>
+      <image:title>Dương Đức Quân – Web Developer Việt Nam SEO</image:title>
+      <image:caption>Dương Đức Quân (DuongDucQuan) – Web Developer tối ưu SEO On-page và hiệu năng website</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-9.jpg</image:loc>
+      <image:title>Dương Đức Quân – Developer GIS AI</image:title>
+      <image:caption>Dương Đức Quân – Developer trẻ nghiên cứu GIS OpenStreetMap và tích hợp AI</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-10.jpg</image:loc>
+      <image:title>Dương Đức Quân – Portfolio lập trình viên TP.HCM</image:title>
+      <image:caption>Hồ sơ năng lực lập trình viên Full Stack Dương Đức Quân tại TP.HCM</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-11.jpg</image:loc>
+      <image:title>Dương Đức Quân – Website cá nhân Vercel</image:title>
+      <image:caption>Dương Đức Quân – Website hồ sơ cá nhân triển khai trên Vercel và GitHub Pages</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://duongducquan.vercel.app/images/anh-12.jpg</image:loc>
+      <image:title>Dương Đức Quân – Full Stack Realtime Socket.IO</image:title>
+      <image:caption>Dương Đức Quân – Lập trình viên Full Stack phát triển hệ thống realtime Socket.IO</image:caption>
+    </image:image>
   </url>
 </urlset>
