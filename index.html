@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="utf-8">
@@ -20,12 +20,14 @@
 <meta property="og:title" content="Dương Đức Quân (DuongDucQuan) – Công nghệ đã học của một Full Stack Developer">
 <meta property="og:description" content="Tổng hợp Frontend, Backend, Database, Realtime, GIS, Kiến trúc phần mềm, DevOps và SEO mà Dương Đức Quân (duongducquan) đã học.">
 <meta property="og:url" content="https://duongducquan.vercel.app/">
+<meta property="og:image" content="https://duongducquan.vercel.app/images/anh-1.jpg">
 <meta property="profile:first_name" content="Quân">
 <meta property="profile:last_name" content="Dương Đức">
 <meta property="profile:username" content="duongducquan">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dương Đức Quân (DuongDucQuan) – Full Stack Web Developer">
 <meta name="twitter:description" content="Công nghệ đã học: React, Node.js, PHP, MySQL, Socket.IO, OSM, Docker, SEO.">
+<meta name="twitter:image" content="https://duongducquan.vercel.app/images/anh-1.jpg">
 
 <script type="application/ld+json">
 {
@@ -47,7 +49,7 @@
       "inLanguage": "vi",
       "isPartOf": { "@id": "https://duongducquan.vercel.app/#website" },
       "dateCreated": "2026-11-05T00:00:00+07:00",
-      "dateModified": "2026-11-05T00:00:00+07:00",
+      "dateModified": "2026-11-10T00:00:00+07:00",
       "mainEntity": { "@id": "https://duongducquan.vercel.app/#quan" }
     },
     {
@@ -58,6 +60,7 @@
       "description": "Sinh viên và lập trình viên Full Stack ở Việt Nam, làm web với React, Node.js, PHP, MySQL, đang tìm hiểu thêm GIS, Docker và SEO.",
       "jobTitle": "Full Stack Web Developer",
       "url": "https://duongducquan.vercel.app/",
+      "image": "https://duongducquan.vercel.app/images/anh-1.jpg",
       "nationality": "VN",
       "knowsAbout": ["HTML5", "CSS3", "JavaScript", "TypeScript", "ReactJS", "Node.js", "Express.js", "PHP", "CodeIgniter 4", "MySQL", "MongoDB", "Socket.IO", "OpenStreetMap", "Docker", "SEO"],
       "sameAs": [
@@ -79,7 +82,7 @@
       "author": { "@id": "https://duongducquan.vercel.app/#quan" },
       "mainEntityOfPage": "https://duongducquan.vercel.app/",
       "datePublished": "2026-11-05",
-      "dateModified": "2026-11-05"
+      "dateModified": "2026-11-10"
     },
     {
       "@type": "ImageGallery",
@@ -97,7 +100,8 @@
         {"@type":"ImageObject","contentUrl":"https://duongducquan.vercel.app/images/anh-9.jpg","name":"Ảnh Dương Đức Quân – Developer GIS AI","caption":"Dương Đức Quân – Developer trẻ nghiên cứu GIS OpenStreetMap và tích hợp AI"},
         {"@type":"ImageObject","contentUrl":"https://duongducquan.vercel.app/images/anh-10.jpg","name":"Ảnh Dương Đức Quân – Portfolio lập trình viên TP.HCM","caption":"Hồ sơ năng lực lập trình viên Full Stack Dương Đức Quân tại TP.HCM"},
         {"@type":"ImageObject","contentUrl":"https://duongducquan.vercel.app/images/anh-11.jpg","name":"Ảnh Dương Đức Quân – Website cá nhân Vercel","caption":"Dương Đức Quân – Website hồ sơ cá nhân triển khai trên Vercel và GitHub Pages"},
-        {"@type":"ImageObject","contentUrl":"https://duongducquan.vercel.app/images/anh-12.jpg","name":"Ảnh Dương Đức Quân – Full Stack Realtime Socket.IO","caption":"Dương Đức Quân – Lập trình viên Full Stack phát triển hệ thống realtime Socket.IO"}
+        {"@type":"ImageObject","contentUrl":"https://duongducquan.vercel.app/images/anh-12.jpg","name":"Ảnh Dương Đức Quân – Full Stack Realtime Socket.IO","caption":"Dương Đức Quân – Lập trình viên Full Stack phát triển hệ thống realtime Socket.IO"},
+        {"@type":"ImageObject","contentUrl":"https://duongducquan.vercel.app/images/anh-13.jpg","name":"Ảnh Dương Đức Quân – Hình ảnh mới nhất","caption":"Dương Đức Quân (DuongDucQuan) – Hình ảnh mới nhất của lập trình viên Full Stack"}
       ]
     },
     {
@@ -126,94 +130,142 @@
 
 <style>
 :root{
-  --bg:#f6f8f7; --surface:#ffffff; --ink:#16231f; --muted:#52645e;
-  --line:#d5dfdb; --accent:#0b6b57; --accent-soft:#e1f1ec;
-}
-@media (prefers-color-scheme:dark){
-  :root{ --bg:#0f1815; --surface:#16231f; --ink:#e8f0ed; --muted:#a3b5ae; --line:#27403a; --accent:#5fd1b3; --accent-soft:#17342d; }
+  --bg:#0b0f14; --surface:#121821; --surface2:#182130; --ink:#e8eef5; --muted:#9db1c4;
+  --line:#233043; --accent:#38e0b0; --accent2:#4f9cf9; --glow:rgba(56,224,176,.35);
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
 a{color:var(--accent)}
-a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-.wrap{max-width:860px;margin:0 auto;padding:0 20px}
-header.hero{padding:56px 0 32px;border-bottom:1px solid var(--line)}
-.hero p.lead{font-size:1.15rem;color:var(--muted);max-width:62ch;margin:12px 0 0}
-h1{font:700 clamp(2rem,6vw,3.2rem)/1.15 Georgia,"Times New Roman",serif;margin:0}
-h1 small{display:block;font:500 1rem/1.5 "Segoe UI",system-ui,sans-serif;color:var(--accent);margin-top:8px}
-h2{font:700 1.6rem/1.3 Georgia,serif;margin:0 0 12px}
+a:focus-visible,summary:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(900px 500px at 15% -10%,rgba(56,224,176,.14),transparent 60%),
+             radial-gradient(900px 500px at 90% 0%,rgba(79,156,249,.14),transparent 60%);}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+
+/* NAV */
+.navbar{position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);background:rgba(11,15,20,.8);border-bottom:1px solid var(--line)}
+.navbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;text-decoration:none;color:var(--ink)}
+.brand img{width:36px;height:36px;border-radius:50%;border:2px solid var(--accent)}
+.navbar nav{display:flex;gap:18px;flex-wrap:wrap}
+.navbar nav a{color:var(--muted);text-decoration:none;font-size:.92rem;padding:6px 10px;border-radius:8px;transition:.2s}
+.navbar nav a:hover{color:var(--accent);background:var(--surface2)}
+@media (max-width:760px){.navbar nav{display:none}}
+
+/* HERO */
+header.hero{padding:72px 0 48px;text-align:center}
+.badge{display:inline-flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);color:var(--accent);border-radius:999px;padding:6px 16px;font-size:.85rem;font-weight:600}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--glow);animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.4}}
+.avatar{width:128px;height:128px;border-radius:50%;object-fit:cover;margin:22px auto 0;display:block;border:3px solid var(--accent);box-shadow:0 0 40px var(--glow)}
+h1{font:800 clamp(2.2rem,7vw,3.6rem)/1.12 "Segoe UI",system-ui,sans-serif;margin:18px 0 0;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .role{color:var(--muted);font-size:1.05rem;margin:10px 0 0}
+.lead{max-width:64ch;margin:16px auto 0;color:var(--muted)}
+.cta{display:inline-block;margin:26px 8px 0;padding:12px 26px;border-radius:12px;font-weight:700;text-decoration:none;transition:.2s}
+.cta.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#06251c;box-shadow:0 8px 24px var(--glow)}
+.cta.primary:hover{transform:translateY(-2px)}
+.cta.ghost{border:1px solid var(--line);color:var(--ink);background:var(--surface)}
+.cta.ghost:hover{border-color:var(--accent);color:var(--accent)}
+
+/* SECTIONS */
+section{padding:48px 0;border-bottom:1px solid var(--line)}
+.kicker{color:var(--accent);font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;margin:0 0 6px}
+h2{font:700 clamp(1.4rem,3.5vw,1.9rem)/1.3 "Segoe UI",system-ui,sans-serif;margin:0 0 14px}
 h3{font-size:1.05rem;margin:0 0 6px}
-nav.toc{margin:24px 0 0;padding:16px 20px;background:var(--accent-soft);border-radius:10px}
-nav.toc ul{margin:8px 0 0;padding-left:20px;columns:2;column-gap:28px}
-@media (max-width:560px){nav.toc ul{columns:1}}
-section{padding:36px 0;border-bottom:1px solid var(--line)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:14px}
-.box{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
-.box p{margin:0;color:var(--muted);font-size:.95rem}
-table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);margin-top:12px}
-th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
-th{background:var(--accent-soft)}
+p{margin:0 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;transition:.25s}
+.card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 12px 30px rgba(0,0,0,.35)}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:12px}
+th,td{text-align:left;padding:11px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--surface2);color:var(--accent);font-size:.85rem;text-transform:uppercase;letter-spacing:.06em}
+tr:last-child td{border-bottom:0}
 .scroll{overflow-x:auto}
-.note{border-left:4px solid var(--accent);background:var(--surface);padding:12px 16px;margin-top:14px}
-details{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin-top:10px}
+.note{border-left:4px solid var(--accent);background:var(--surface);border-radius:0 10px 10px 0;padding:14px 18px;margin:16px 0 0}
+details{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-top:10px}
 summary{cursor:pointer;font-weight:600}
-ul.tags{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
-ul.tags li{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 12px;font-size:.92rem}
-footer{padding:28px 0 56px;color:var(--muted);font-size:.95rem}
+ul.tags{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+ul.tags li{background:var(--surface);border:1px solid var(--line);color:var(--accent);border-radius:999px;padding:4px 14px;font-size:.9rem;transition:.2s}
+ul.tags li:hover{border-color:var(--accent);transform:translateY(-2px)}
+
+/* GALLERY */
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:18px}
+.shot{position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--line);cursor:pointer;background:var(--surface);padding:0;margin:0}
+.shot img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .4s ease}
+.shot:hover img{transform:scale(1.07)}
+.shot figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 14px 12px;font-size:.82rem;color:#fff;
+  background:linear-gradient(transparent,rgba(0,0,0,.85));opacity:0;transition:.25s}
+.shot:hover figcaption{opacity:1}
+.shot::after{content:"⤢";position:absolute;top:10px;right:12px;background:rgba(0,0,0,.55);color:#fff;border-radius:8px;width:30px;height:30px;display:grid;place-items:center;opacity:0;transition:.25s}
+.shot:hover::after{opacity:1}
+
+/* LIGHTBOX */
+.lightbox{position:fixed;inset:0;z-index:100;background:rgba(5,8,12,.94);display:none;align-items:center;justify-content:center;flex-direction:column;padding:24px}
+.lightbox.open{display:flex}
+.lightbox img{max-width:min(92vw,1100px);max-height:78vh;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.lb-cap{color:var(--muted);margin-top:14px;text-align:center;max-width:80ch}
+.lb-btn{position:absolute;top:50%;transform:translateY(-50%);background:var(--surface);border:1px solid var(--line);color:var(--ink);width:48px;height:48px;border-radius:50%;font-size:1.3rem;cursor:pointer;transition:.2s}
+.lb-btn:hover{color:var(--accent);border-color:var(--accent)}
+.lb-prev{left:18px}.lb-next{right:18px}
+.lb-close{position:absolute;top:18px;right:18px;width:44px;height:44px;border-radius:50%;background:var(--surface);border:1px solid var(--line);color:var(--ink);font-size:1.2rem;cursor:pointer}
+
+footer{padding:34px 0 60px;color:var(--muted);font-size:.95rem;text-align:center}
+footer a{color:var(--accent)}
 img{max-width:100%;height:auto}
 </style>
 </head>
 <body>
 
+<nav class="navbar">
+  <div class="wrap">
+    <a class="brand" href="#"><img src="quan-avatar-logo.png" alt="Logo Dương Đức Quân – DuongDucQuan" width="36" height="36"> DuongDucQuan</a>
+    <nav aria-label="Điều hướng chính">
+      <a href="#gioi-thieu">Giới thiệu</a>
+      <a href="#ky-nang">Kỹ năng</a>
+      <a href="#bo-suu-tap-anh">Ảnh</a>
+      <a href="#du-an">Dự án</a>
+      <a href="#lien-ket">Liên kết</a>
+    </nav>
+  </div>
+</nav>
+
 <header class="hero">
   <div class="wrap">
-    <h1>Dương Đức Quân
-      <small>DuongDucQuan · duongducquan · Full Stack Web Developer</small>
-    </h1>
-    <p class="lead"><strong>Dương Đức Quân</strong> (nick <strong>duongducquan</strong>, GitHub <strong>DuongDucQuan</strong>) là sinh viên và lập trình viên Full Stack ở Việt Nam. Bài viết này tổng hợp toàn bộ công nghệ mình đã học, từ giao diện web đến backend, cơ sở dữ liệu, bản đồ GIS, triển khai và SEO.</p>
-    <ul class="tags" aria-label="Hashtag chính">
+    <span class="badge"><span class="dot"></span> Sẵn sàng nhận dự án &amp; thực tập</span>
+    <img class="avatar" src="quan-avatar-logo.png" alt="Ảnh đại diện Dương Đức Quân – DuongDucQuan, Full Stack Web Developer" width="128" height="128">
+    <h1>Dương Đức Quân</h1>
+    <p class="role">DuongDucQuan · duongducquan · Full Stack Web Developer 🇻🇳</p>
+    <p class="lead">Xin chào! Mình là <strong>Dương Đức Quân</strong> (GitHub: <strong>DuongDucQuan</strong>) – sinh viên &amp; lập trình viên Full Stack tại Việt Nam. Từ giao diện React đến backend Node.js/PHP, database MySQL, bản đồ GIS/OSM và SEO – đây là nơi mình tổng hợp toàn bộ những gì đã học và đã làm.</p>
+    <a class="cta primary" href="#bo-suu-tap-anh">📸 Xem bộ sưu tập ảnh</a>
+    <a class="cta ghost" href="#lien-ket">🔗 Tất cả liên kết</a>
+    <ul class="tags" aria-label="Hashtag chính" style="justify-content:center">
       <li>#DuongDucQuan</li>
       <li>#duongducquan</li>
-      <li>#DươngĐứcQuân</li>
       <li>#FullStackDeveloper</li>
       <li>#WebDeveloper</li>
     </ul>
-    <nav class="toc" aria-label="Mục lục">
-      <strong>Mục lục</strong>
-      <ul>
-        <li><a href="#gioi-thieu">Giới thiệu Dương Đức Quân</a></li>
-        <li><a href="#frontend">Frontend</a></li>
-        <li><a href="#backend">Backend</a></li>
-        <li><a href="#database">Cơ sở dữ liệu</a></li>
-        <li><a href="#realtime">API và realtime</a></li>
-        <li><a href="#gis">GIS – OpenStreetMap</a></li>
-        <li><a href="#kien-truc">Kiến trúc phần mềm</a></li>
-        <li><a href="#devops">DevOps và triển khai</a></li>
-        <li><a href="#seo">SEO On-page</a></li>
-        <li><a href="#ai">AI hỗ trợ lập trình</a></li>
-        <li><a href="#du-an">Dự án đã làm</a></li>
-        <li><a href="#faq">Câu hỏi thường gặp</a></li>
-        <li><a href="#lien-ket">Tất cả liên kết</a></li>
-        <li><a href="#hashtag">Từ khóa và hashtag</a></li>
-      </ul>
-    </nav>
   </div>
 </header>
 
 <main class="wrap">
-
 <article>
 
 <section id="gioi-thieu">
+  <p class="kicker">About</p>
   <h2>Giới thiệu Dương Đức Quân (DuongDucQuan)</h2>
   <p>Mình là <strong>Dương Đức Quân</strong> (viết không dấu: <strong>Duong Duc Quan</strong>), trên mạng dùng tên <strong>duongducquan</strong> và <strong>DuongDucQuan</strong>. Mình học lập trình theo hướng <strong>Full Stack</strong>: tự dựng giao diện, viết API, thiết kế database rồi đưa website lên hosting. Phần lớn công nghệ bên dưới mình học qua đồ án, bài tập cuối kỳ và các dự án cá nhân.</p>
   <div class="note"><strong>Lưu ý trung thực:</strong> một số mảng như kiến trúc phần mềm, Docker, CI/CD và triển khai nâng cao là kiến thức mình đang tìm hiểu thêm, chưa phải đã làm thành thạo trong dự án thực tế.</div>
 </section>
 
-<section id="frontend">
-  <h2>Frontend – xây dựng giao diện web</h2>
+<section id="ky-nang">
+  <p class="kicker">Skills</p>
+  <h2>Kỹ năng và công nghệ đã học</h2>
+
+  <h3>Frontend – xây dựng giao diện web</h3>
   <div class="scroll"><table>
     <thead><tr><th>Công nghệ</th><th>Mình dùng để</th></tr></thead>
     <tbody>
@@ -227,10 +279,8 @@ img{max-width:100%;height:auto}
       <tr><td>Material UI (MUI)</td><td>Thư viện component cho React</td></tr>
     </tbody>
   </table></div>
-</section>
 
-<section id="backend">
-  <h2>Backend – xử lý phía server</h2>
+  <h3 style="margin-top:28px">Backend – xử lý phía server</h3>
   <div class="scroll"><table>
     <thead><tr><th>Công nghệ</th><th>Mình dùng để</th></tr></thead>
     <tbody>
@@ -244,21 +294,17 @@ img{max-width:100%;height:auto}
       <tr><td>Event Loop, libuv</td><td>Hiểu cơ chế bất đồng bộ của Node.js</td></tr>
     </tbody>
   </table></div>
-</section>
 
-<section id="database">
-  <h2>Cơ sở dữ liệu</h2>
+  <h3 style="margin-top:28px">Cơ sở dữ liệu</h3>
   <div class="grid">
-    <div class="box"><h3>MySQL</h3><p>SQL, JOIN, CRUD, cơ sở dữ liệu quan hệ.</p></div>
-    <div class="box"><h3>MongoDB</h3><p>Cơ sở dữ liệu NoSQL.</p></div>
-    <div class="box"><h3>Connection Pool</h3><p>Quản lý kết nối database.</p></div>
-    <div class="box"><h3>Database Design</h3><p>Thiết kế bảng, quan hệ, khóa chính, khóa ngoại.</p></div>
-    <div class="box"><h3>JSON</h3><p>Định dạng trao đổi dữ liệu giữa frontend và backend.</p></div>
+    <div class="card"><h3>MySQL</h3><p>SQL, JOIN, CRUD, cơ sở dữ liệu quan hệ.</p></div>
+    <div class="card"><h3>MongoDB</h3><p>Cơ sở dữ liệu NoSQL.</p></div>
+    <div class="card"><h3>Connection Pool</h3><p>Quản lý kết nối database.</p></div>
+    <div class="card"><h3>Database Design</h3><p>Thiết kế bảng, quan hệ, khóa chính, khóa ngoại.</p></div>
+    <div class="card"><h3>JSON</h3><p>Định dạng trao đổi dữ liệu giữa frontend và backend.</p></div>
   </div>
-</section>
 
-<section id="realtime">
-  <h2>API và giao tiếp thời gian thực</h2>
+  <h3 style="margin-top:28px">API và giao tiếp thời gian thực</h3>
   <ul>
     <li>HTTP: GET, POST, PUT, PATCH, DELETE.</li>
     <li>REST API và JSON, Authentication, Authorization.</li>
@@ -266,10 +312,8 @@ img{max-width:100%;height:auto}
     <li>Đồng bộ dữ liệu giữa điện thoại và máy tính.</li>
     <li>Tài liệu API với Swagger UI, OpenAPI; kiểm thử bằng Postman.</li>
   </ul>
-</section>
 
-<section id="gis">
-  <h2>GIS – bản đồ và dữ liệu địa lý</h2>
+  <h3 style="margin-top:28px">GIS – bản đồ và dữ liệu địa lý</h3>
   <p>Đây là mảng mình đang nghiên cứu trong quá trình thực tập.</p>
   <div class="scroll"><table>
     <thead><tr><th>Công nghệ</th><th>Nội dung</th></tr></thead>
@@ -283,15 +327,11 @@ img{max-width:100%;height:auto}
       <tr><td>Bounding Box, Latitude / Longitude</td><td>Vùng giới hạn tọa độ, vĩ độ và kinh độ</td></tr>
     </tbody>
   </table></div>
-</section>
 
-<section id="kien-truc">
-  <h2>Kiến trúc phần mềm</h2>
+  <h3 style="margin-top:28px">Kiến trúc phần mềm</h3>
   <p>MVC, Layered Architecture, Clean Architecture, Modular Monolith, Microservices, Event-Driven Architecture và mẫu Controller – Service – Repository. Mình áp dụng MVC thường xuyên nhất; các kiến trúc còn lại đang ở mức tìm hiểu.</p>
-</section>
 
-<section id="devops">
-  <h2>DevOps và triển khai website</h2>
+  <h3 style="margin-top:28px">DevOps và triển khai website</h3>
   <ul>
     <li><strong>Git và GitHub:</strong> quản lý mã nguồn, version control, GitHub Pages.</li>
     <li><strong>Docker:</strong> đóng gói ứng dụng bằng container.</li>
@@ -300,9 +340,13 @@ img{max-width:100%;height:auto}
     <li><strong>Hosting:</strong> Firebase Hosting, Netlify, Vercel, GitHub Pages, Cloudflare Workers.</li>
     <li><strong>CI/CD:</strong> tự động hóa build và deploy.</li>
   </ul>
+
+  <h3 style="margin-top:28px">AI và công cụ hỗ trợ lập trình</h3>
+  <p>Groq API để tích hợp chatbot, Prompt Engineering, Claude Code, Gemini, API Integration và VS Code. Mình dùng AI để học nhanh và rà lỗi, còn kiến trúc và logic vẫn tự quyết định.</p>
 </section>
 
 <section id="seo">
+  <p class="kicker">SEO</p>
   <h2>SEO On-page mà Dương Đức Quân đã học</h2>
   <p>SEO On-page là phần tối ưu ngay trên website để Google hiểu nội dung. Với các trang của <strong>DuongDucQuan</strong>, mình áp dụng:</p>
   <ul>
@@ -311,49 +355,48 @@ img{max-width:100%;height:auto}
     <li><strong>HTML ngữ nghĩa:</strong> header, nav, main, article, section, footer.</li>
     <li><strong>Canonical URL</strong> để tránh trùng nội dung.</li>
     <li><strong>Open Graph và Twitter Card</strong> để chia sẻ đẹp trên mạng xã hội.</li>
-    <li><strong>Dữ liệu có cấu trúc JSON-LD</strong> (WebSite, ProfilePage, Person, Article, FAQPage).</li>
-    <li><strong>Thuộc tính alt</strong> cho hình ảnh, ảnh tối ưu dung lượng.</li>
-    <li><strong>Liên kết nội bộ</strong> bằng mục lục và anchor text rõ nghĩa.</li>
-    <li><strong>sitemap.xml, robots.txt</strong>, xác minh bằng Google Search Console và theo dõi bằng Google Analytics.</li>
+    <li><strong>Dữ liệu có cấu trúc JSON-LD</strong> (WebSite, ProfilePage, Person, Article, ImageGallery, FAQPage).</li>
+    <li><strong>Thuộc tính alt</strong> cho hình ảnh, ảnh tối ưu dung lượng, lazy loading.</li>
+    <li><strong>Liên kết nội bộ</strong> bằng anchor text rõ nghĩa.</li>
+    <li><strong>sitemap.xml, robots.txt</strong>, xác minh bằng Google Search Console.</li>
     <li><strong>Responsive và tải nhanh</strong> cho cả điện thoại.</li>
   </ul>
 </section>
 
-<section id="ai">
-  <h2>AI và công cụ hỗ trợ lập trình</h2>
-  <p>Groq API để tích hợp chatbot, Prompt Engineering, Claude Code, Gemini, API Integration và VS Code. Mình dùng AI để học nhanh và rà lỗi, còn kiến trúc và logic vẫn tự quyết định.</p>
-</section>
-
 <section id="du-an">
+  <p class="kicker">Projects</p>
   <h2>Dự án Dương Đức Quân đã làm</h2>
   <div class="grid">
-    <div class="box"><h3>TechShop VN</h3><p>Website thương mại điện tử bằng Java, Servlet, JSP.</p></div>
-    <div class="box"><h3>Nông Sản Sạch</h3><p>Website bán nông sản bằng CodeIgniter (PHP).</p></div>
-    <div class="box"><h3>BuffVIP</h3><p>Trang quản trị reseller dịch vụ SMM bằng Node.js và Express.</p></div>
-    <div class="box"><h3>Web vật liệu xây dựng</h3><p>Đồ án tốt nghiệp: HTML/CSS, Node.js, MySQL.</p></div>
+    <div class="card"><h3>🛒 TechShop VN</h3><p>Website thương mại điện tử bằng Java, Servlet, JSP.</p></div>
+    <div class="card"><h3>🌾 Nông Sản Sạch</h3><p>Website bán nông sản bằng CodeIgniter (PHP).</p></div>
+    <div class="card"><h3>⚡ BuffVIP</h3><p>Trang quản trị reseller dịch vụ SMM bằng Node.js và Express.</p></div>
+    <div class="card"><h3>🧱 Web vật liệu xây dựng</h3><p>Đồ án tốt nghiệp: HTML/CSS, Node.js, MySQL.</p></div>
   </div>
 </section>
 
 <section id="bo-suu-tap-anh">
+  <p class="kicker">Gallery</p>
   <h2>Bộ sưu tập ảnh của Dương Đức Quân</h2>
-  <p>Kho lưu trữ hình ảnh chân thực, rõ nét của <strong>Dương Đức Quân (DuongDucQuan, duongducquan)</strong> – lập trình viên Full Stack Web Developer tại TP. Hồ Chí Minh. Bấm vào từng ảnh để xem chi tiết:</p>
-  <div class="gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:14px">
-    <a href="images/anh-1.jpg" target="_blank" rel="noopener"><img src="images/anh-1.jpg" alt="Dương Đức Quân – Chân dung Full Stack Developer DuongDucQuan tại TP.HCM" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-2.jpg" target="_blank" rel="noopener"><img src="images/anh-2.jpg" alt="Dương Đức Quân – Lập trình viên web Full Stack Việt Nam duongducquan" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-3.jpg" target="_blank" rel="noopener"><img src="images/anh-3.jpg" alt="Dương Đức Quân – Portfolio lập trình viên DuongDucQuan React Node PHP" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-4.jpg" target="_blank" rel="noopener"><img src="images/anh-4.jpg" alt="Dương Đức Quân – Developer chuyên ReactJS và NodeJS tại TP.HCM" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-5.jpg" target="_blank" rel="noopener"><img src="images/anh-5.jpg" alt="Dương Đức Quân – Sinh viên Công nghệ Thông tin duongducquan TP.HCM" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-6.jpg" target="_blank" rel="noopener"><img src="images/anh-6.jpg" alt="Dương Đức Quân – Full Stack Web Developer Thủ Đức MID Việt Nam" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-7.jpg" target="_blank" rel="noopener"><img src="images/anh-7.jpg" alt="Dương Đức Quân – Lập trình viên backend PHP CodeIgniter MySQL" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-8.jpg" target="_blank" rel="noopener"><img src="images/anh-8.jpg" alt="Dương Đức Quân – Web Developer Việt Nam tối ưu SEO On-page" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-9.jpg" target="_blank" rel="noopener"><img src="images/anh-9.jpg" alt="Dương Đức Quân – Developer trẻ nghiên cứu GIS OpenStreetMap và AI" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-10.jpg" target="_blank" rel="noopener"><img src="images/anh-10.jpg" alt="Dương Đức Quân – Hồ sơ năng lực lập trình viên Full Stack TP.HCM" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-11.jpg" target="_blank" rel="noopener"><img src="images/anh-11.jpg" alt="Dương Đức Quân – Website hồ sơ cá nhân triển khai Vercel GitHub Pages" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
-    <a href="images/anh-12.jpg" target="_blank" rel="noopener"><img src="images/anh-12.jpg" alt="Dương Đức Quân – Lập trình viên Full Stack hệ thống realtime Socket.IO" style="width:100%;height:200px;object-fit:cover;border-radius:8px" loading="lazy"></a>
+  <p>Kho lưu trữ hình ảnh chân thực, rõ nét của <strong>Dương Đức Quân (DuongDucQuan, duongducquan)</strong> – lập trình viên Full Stack Web Developer tại TP. Hồ Chí Minh. Bấm vào từng ảnh để xem ở chế độ toàn màn hình, dùng mũi tên ← → để chuyển ảnh:</p>
+  <div class="gallery" id="gallery">
+    <figure class="shot" data-src="images/anh-1.jpg" data-cap="Dương Đức Quân – Chân dung Full Stack Developer DuongDucQuan tại TP.HCM" tabindex="0"><img src="images/anh-1.jpg" alt="Dương Đức Quân – Chân dung Full Stack Developer DuongDucQuan tại TP.HCM" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – Chân dung Full Stack Developer tại TP.HCM</figcaption></figure>
+    <figure class="shot" data-src="images/anh-2.jpg" data-cap="Dương Đức Quân – Lập trình viên web Full Stack Việt Nam duongducquan" tabindex="0"><img src="images/anh-2.jpg" alt="Dương Đức Quân – Lập trình viên web Full Stack Việt Nam duongducquan" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – Lập trình viên web Việt Nam</figcaption></figure>
+    <figure class="shot" data-src="images/anh-3.jpg" data-cap="Dương Đức Quân – Portfolio lập trình viên DuongDucQuan React Node PHP" tabindex="0"><img src="images/anh-3.jpg" alt="Dương Đức Quân – Portfolio lập trình viên DuongDucQuan React Node PHP" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – Portfolio DuongDucQuan</figcaption></figure>
+    <figure class="shot" data-src="images/anh-4.jpg" data-cap="Dương Đức Quân – Developer chuyên ReactJS và NodeJS tại TP.HCM" tabindex="0"><img src="images/anh-4.jpg" alt="Dương Đức Quân – Developer chuyên ReactJS và NodeJS tại TP.HCM" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – ReactJS &amp; NodeJS Developer</figcaption></figure>
+    <figure class="shot" data-src="images/anh-5.jpg" data-cap="Dương Đức Quân – Sinh viên Công nghệ Thông tin duongducquan TP.HCM" tabindex="0"><img src="images/anh-5.jpg" alt="Dương Đức Quân – Sinh viên Công nghệ Thông tin duongducquan TP.HCM" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – Sinh viên IT TP.HCM</figcaption></figure>
+    <figure class="shot" data-src="images/anh-6.jpg" data-cap="Dương Đức Quân – Full Stack Web Developer Thủ Đức MID Việt Nam" tabindex="0"><img src="images/anh-6.jpg" alt="Dương Đức Quân – Full Stack Web Developer Thủ Đức MID Việt Nam" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – Full Stack Developer Thủ Đức</figcaption></figure>
+    <figure class="shot" data-src="images/anh-7.jpg" data-cap="Dương Đức Quân – Lập trình viên backend PHP CodeIgniter MySQL" tabindex="0"><img src="images/anh-7.jpg" alt="Dương Đức Quân – Lập trình viên backend PHP CodeIgniter MySQL" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – PHP &amp; MySQL Developer</figcaption></figure>
+    <figure class="shot" data-src="images/anh-8.jpg" data-cap="Dương Đức Quân – Web Developer Việt Nam tối ưu SEO On-page" tabindex="0"><img src="images/anh-8.jpg" alt="Dương Đức Quân – Web Developer Việt Nam tối ưu SEO On-page" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – Web Developer &amp; SEO</figcaption></figure>
+    <figure class="shot" data-src="images/anh-9.jpg" data-cap="Dương Đức Quân – Developer trẻ nghiên cứu GIS OpenStreetMap và AI" tabindex="0"><img src="images/anh-9.jpg" alt="Dương Đức Quân – Developer trẻ nghiên cứu GIS OpenStreetMap và AI" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – GIS OpenStreetMap &amp; AI</figcaption></figure>
+    <figure class="shot" data-src="images/anh-10.jpg" data-cap="Dương Đức Quân – Hồ sơ năng lực lập trình viên Full Stack TP.HCM" tabindex="0"><img src="images/anh-10.jpg" alt="Dương Đức Quân – Hồ sơ năng lực lập trình viên Full Stack TP.HCM" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – Hồ sơ năng lực TP.HCM</figcaption></figure>
+    <figure class="shot" data-src="images/anh-11.jpg" data-cap="Dương Đức Quân – Website hồ sơ cá nhân triển khai Vercel GitHub Pages" tabindex="0"><img src="images/anh-11.jpg" alt="Dương Đức Quân – Website hồ sơ cá nhân triển khai Vercel GitHub Pages" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – Website cá nhân Vercel</figcaption></figure>
+    <figure class="shot" data-src="images/anh-12.jpg" data-cap="Dương Đức Quân – Lập trình viên Full Stack hệ thống realtime Socket.IO" tabindex="0"><img src="images/anh-12.jpg" alt="Dương Đức Quân – Lập trình viên Full Stack hệ thống realtime Socket.IO" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – Realtime Socket.IO</figcaption></figure>
+    <figure class="shot" data-src="images/anh-13.jpg" data-cap="Dương Đức Quân (DuongDucQuan) – Hình ảnh mới nhất của lập trình viên Full Stack" tabindex="0"><img src="images/anh-13.jpg" alt="Dương Đức Quân – Hình ảnh mới nhất của lập trình viên Full Stack DuongDucQuan" loading="lazy" width="640" height="480"><figcaption>Dương Đức Quân – Ảnh mới nhất</figcaption></figure>
   </div>
 </section>
 
 <section id="faq">
+  <p class="kicker">FAQ</p>
   <h2>Câu hỏi thường gặp</h2>
   <details>
     <summary>Dương Đức Quân là ai?</summary>
@@ -370,6 +413,7 @@ img{max-width:100%;height:auto}
 </section>
 
 <section id="lien-ket">
+  <p class="kicker">Links</p>
   <h2>Tất cả liên kết của Dương Đức Quân (DuongDucQuan)</h2>
   <p>Danh sách website, mạng xã hội, mã nguồn và nơi triển khai chính thức của <strong>duongducquan</strong>.</p>
 
@@ -412,39 +456,17 @@ img{max-width:100%;height:auto}
 </section>
 
 <section id="hashtag" style="border-bottom:0">
+  <p class="kicker">Keywords</p>
   <h2>Từ khóa và hashtag về Dương Đức Quân</h2>
   <p>Các chủ đề gắn với <strong>Dương Đức Quân (DuongDucQuan)</strong> trong bài viết này:</p>
   <ul class="tags" aria-label="Danh sách hashtag">
-    <li>#DuongDucQuan</li>
-    <li>#duongducquan</li>
-    <li>#DươngĐứcQuân</li>
-    <li>#DuongDucQuann</li>
-    <li>#FullStackDeveloper</li>
-    <li>#WebDeveloper</li>
-    <li>#LậpTrìnhWeb</li>
-    <li>#LậpTrìnhViên</li>
-    <li>#SinhViênIT</li>
-    <li>#ReactJS</li>
-    <li>#NodeJS</li>
-    <li>#ExpressJS</li>
-    <li>#PHP</li>
-    <li>#CodeIgniter</li>
-    <li>#MySQL</li>
-    <li>#MongoDB</li>
-    <li>#TypeScript</li>
-    <li>#JavaScript</li>
-    <li>#TailwindCSS</li>
-    <li>#SocketIO</li>
-    <li>#RESTAPI</li>
-    <li>#OpenStreetMap</li>
-    <li>#GIS</li>
-    <li>#Docker</li>
-    <li>#Git</li>
-    <li>#GitHubPages</li>
-    <li>#SEO</li>
-    <li>#SEOOnpage</li>
-    <li>#VietnamDeveloper</li>
-    <li>#HoChiMinh</li>   
+    <li>#DuongDucQuan</li><li>#duongducquan</li><li>#DươngĐứcQuân</li><li>#DuongDucQuann</li>
+    <li>#FullStackDeveloper</li><li>#WebDeveloper</li><li>#LậpTrìnhWeb</li><li>#LậpTrìnhViên</li>
+    <li>#SinhViênIT</li><li>#ReactJS</li><li>#NodeJS</li><li>#ExpressJS</li><li>#PHP</li>
+    <li>#CodeIgniter</li><li>#MySQL</li><li>#MongoDB</li><li>#TypeScript</li><li>#JavaScript</li>
+    <li>#TailwindCSS</li><li>#SocketIO</li><li>#RESTAPI</li><li>#OpenStreetMap</li><li>#GIS</li>
+    <li>#Docker</li><li>#Git</li><li>#GitHubPages</li><li>#SEO</li><li>#SEOOnpage</li>
+    <li>#VietnamDeveloper</li><li>#HoChiMinh</li>
   </ul>
 </section>
 
@@ -452,8 +474,39 @@ img{max-width:100%;height:auto}
 </main>
 
 <footer>
-  <div class="wrap">© 2026 Dương Đức Quân – DuongDucQuan (duongducquan). Cập nhật ngày 05/11/2026.</div>
+  <div class="wrap">© 2026 <a href="https://duongducquan.vercel.app/">Dương Đức Quân – DuongDucQuan (duongducquan)</a>. Cập nhật ngày 10/11/2026.</div>
 </footer>
 
-</body>  
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Xem ảnh">
+  <button class="lb-close" id="lbClose" aria-label="Đóng">✕</button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Ảnh trước">‹</button>
+  <img id="lbImg" src="" alt="">
+  <p class="lb-cap" id="lbCap"></p>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Ảnh sau">›</button>
+</div>
+
+<script>
+(function(){
+  var shots=[].slice.call(document.querySelectorAll('.shot'));
+  var lb=document.getElementById('lightbox'),img=document.getElementById('lbImg'),cap=document.getElementById('lbCap');
+  var cur=0;
+  function open(i){cur=i;img.src=shots[i].getAttribute('data-src');img.alt=shots[i].querySelector('img').alt;cap.textContent=shots[i].getAttribute('data-cap')||'';lb.classList.add('open');document.body.style.overflow='hidden';}
+  function close(){lb.classList.remove('open');document.body.style.overflow='';img.src='';}
+  function step(d){open((cur+d+shots.length)%shots.length);}
+  shots.forEach(function(s,i){s.addEventListener('click',function(){open(i);});
+    s.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open(i);}});});
+  document.getElementById('lbClose').addEventListener('click',close);
+  document.getElementById('lbPrev').addEventListener('click',function(){step(-1);});
+  document.getElementById('lbNext').addEventListener('click',function(){step(1);});
+  lb.addEventListener('click',function(e){if(e.target===lb)close();});
+  document.addEventListener('keydown',function(e){
+    if(!lb.classList.contains('open'))return;
+    if(e.key==='Escape')close();
+    if(e.key==='ArrowLeft')step(-1);
+    if(e.key==='ArrowRight')step(1);
+  });
+})();
+</script>
+
+</body>
 </html>
