@@ -1,9 +1,12 @@
 # Dương Đức Quân (DuongDucQuan / duongducquan / Duong Duc Quan)
+# https://duongducquan.vercel.app/
 User-agent: *
 Allow: /
 
-# Ảnh cho Google Images
+User-agent: Googlebot
+Allow: /
+
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://duongducquan.github.io/DuongDucQuan/sitemap.xml
+Sitemap: https://duongducquan.vercel.app/sitemap.xml
